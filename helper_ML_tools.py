@@ -64,8 +64,8 @@ def GetAmps(Foldername, occ=False, vir=False, cutoff=False, xyz=True, basis='sto
         if filename.endswith('.xyz'):
             psi4.core.clean()
             print (filename)            
-            shit=str(str(Foldername)+filename)
-            text = open(shit, 'r').read()
+            stuff=str(str(Foldername)+filename)
+            text = open(stuff, 'r').read()
             
             #I added this because some of the older files were not xyz format
             #This just uses .xyz files standard, if it was old psi4 format, it just takes the file as is
@@ -148,8 +148,8 @@ def Test(Foldername, occ=False, vir=False, cutoff=False, xyz=True, basis='sto-3g
                 psi4.core.clean()
                 filenames.append(filename)
                 print ("filename is "+filename)
-                shit=str(Foldername+filename)
-                text = open(shit, 'r').read()
+                stuff=str(Foldername+filename)
+                text = open(stuff, 'r').read()
                 if xyz==True:             
                     qmol = psi4.qcdb.Molecule.from_string(text, dtype='xyz')
                     mol = psi4.geometry(qmol.create_psi4_string_from_molecule()+ 'symmetry c1')                
@@ -223,8 +223,8 @@ def Test(Foldername, occ=False, vir=False, cutoff=False, xyz=True, basis='sto-3g
 
 
 def checkMP2Approx(filename, basis='6-31g',occ=False, vir=False,xyz=True, savefig=False, c=list((1e-2,5e-3,1e-3,5e-4, 1e-4, 5e-5, 1e-5, 1e-6))):
-    shit=str(filename)
-    text = open(shit, 'r').read()
+    stuff=str(filename)
+    text = open(stuff, 'r').read()
 
     #I added this because some of the older files were not xyz format
     #This just uses .xyz files standard, if it was old psi4 format, it just takes the file as is

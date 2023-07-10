@@ -469,7 +469,7 @@ class HelperCCEnergy(object):
 
         print (self.F.shape)
         #print('this should be orbital energies')
-        #self.intshit = self.F - H
+        #self.intstuff = self.F - H
         ### Occupied and Virtual orbital energies
         self.J1 = np.einsum('pmqm->pq', self.MO[:, self.slice_o, :, self.slice_o],optimize=True)
         self.K1 = np.einsum('pmmq->pq', self.MO[:, self.slice_o, self.slice_o, :],optimize=True)
