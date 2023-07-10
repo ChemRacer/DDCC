@@ -29,5 +29,5 @@ Citations:
 ```
 
 References:
-[1. Data-Driven Acceleration of the Coupled-Cluster Singles and Doubles Iterative Solver](https://pubs.acs.org/doi/10.1021/acs.jpclett.9b01442)
-[2. Transferable MP2-Based Machine Learning for Accurate Coupled-Cluster Energies](https://pubs.acs.org/doi/10.1021/acs.jctc.0c00927)
+1. [Data-Driven Acceleration of the Coupled-Cluster Singles and Doubles Iterative Solver](https://pubs.acs.org/doi/10.1021/acs.jpclett.9b01442)
+2. [Transferable MP2-Based Machine Learning for Accurate Coupled-Cluster Energies](https://pubs.acs.org/doi/10.1021/acs.jctc.0c00927)
