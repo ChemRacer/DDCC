@@ -1,0 +1,47 @@
+
+Host: hummingbird-d5763.device.utk.edu
+
+Timers On : Mon Jul 10 17:14:57 2023
+Timers Off: Mon Jul 10 17:17:11 2023
+
+Wall Time:      133.80 seconds
+
+                                                       Time (seconds)
+Module                                       User      System        Wall        Calls
+Total PK formation time             :      0.017u      0.000s      0.009w      2 calls
+Libint2ERI::Libint2ERI              :      0.000u      0.000s      0.007w      6 calls
+HF: Form core H                     :      0.000u      0.000s      0.003w      2 calls
+HF: Form S/X                        :      0.017u      0.000s      0.001w      2 calls
+HF: Guess                           :      0.017u      0.000s      0.028w      2 calls
+SAD Guess                           :      0.017u      0.000s      0.027w      2 calls
+HF: Form G                          :      0.000u      0.000s      0.000w     16 calls
+JK: D                               :      0.000u      0.000s      0.000w     16 calls
+JK: USO2AO                          :      0.000u      0.000s      0.000w     16 calls
+JK: JK                              :      0.000u      0.000s      0.000w     16 calls
+PK computes JK                      :      0.000u      0.000s      0.000w     16 calls
+JK: AO2USO                          :      0.000u      0.000s      0.000w     16 calls
+HF: Form F                          :      0.000u      0.000s      0.000w     16 calls
+HF: Form D                          :      0.000u      0.000s      0.000w     16 calls
+HF: DIIS                            :      0.050u      0.000s      0.033w     14 calls
+HF: Form C                          :      0.000u      0.000s      0.002w     14 calls
+
+--------------------------------------------------------------------------------------
+Total PK formation time             :      0.017u      0.000s      0.009w      2 calls
+| Libint2ERI::Libint2ERI            :      0.000u      0.000s      0.006w      4 calls
+HF: Form core H                     :      0.000u      0.000s      0.003w      2 calls
+HF: Form S/X                        :      0.017u      0.000s      0.001w      2 calls
+HF: Guess                           :      0.017u      0.000s      0.028w      2 calls
+| SAD Guess                         :      0.017u      0.000s      0.027w      2 calls
+HF: Form G                          :      0.000u      0.000s      0.000w     16 calls
+| JK: D                             :      0.000u      0.000s      0.000w     16 calls
+| JK: USO2AO                        :      0.000u      0.000s      0.000w     16 calls
+| JK: JK                            :      0.000u      0.000s      0.000w     16 calls
+| | PK computes JK                  :      0.000u      0.000s      0.000w     16 calls
+| JK: AO2USO                        :      0.000u      0.000s      0.000w     16 calls
+HF: Form F                          :      0.000u      0.000s      0.000w     16 calls
+HF: Form D                          :      0.000u      0.000s      0.000w     16 calls
+HF: DIIS                            :      0.050u      0.000s      0.033w     14 calls
+HF: Form C                          :      0.000u      0.000s      0.002w     14 calls
+Libint2ERI::Libint2ERI              :      0.000u      0.000s      0.000w      2 calls
+
+**************************************************************************************

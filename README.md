@@ -1,9 +1,15 @@
 # Data-Driven Coupled-Cluster
 
-A repository containing code to run data-driven coupled-cluster singles and doubles (DDCCSD), as defined in references [1](https://pubs.acs.org/doi/10.1021/acs.jpclett.9b01442) and [2](https://pubs.acs.org/doi/10.1021/acs.jctc.0c00927).
+A repository containing code to run data-driven coupled-cluster singles and doubles (DDCCSD), as defined in references [1](https://pubs.acs.org/doi/10.1021/acs.jpclett.9b01442) and [2](https://pubs.acs.org/doi/10.1021/acs.jctc.0c00927). For ease of use, install the conda environment following the instructions in the repository [DDQC_Demo](https://github.com/ChemRacer/DDQC_Demo/tree/main). In that same repository, an example using the method from reference [1](https://pubs.acs.org/doi/10.1021/acs.jpclett.9b01442) can be found. In this repository, we have included a simple example for the method in reference [2](https://pubs.acs.org/doi/10.1021/acs.jctc.0c00927).
 
 
-Citations:
+### Required Files
+- `helper_CC_ML_spacial.py`
+- `helper_ML_tools.py`
+- `helper_ML_pairtools.py`
+
+
+### Citations:
 ```
 @article{townsend2019data,
   title={Data-driven acceleration of the coupled-cluster singles and doubles iterative solver},
@@ -28,6 +34,7 @@ Citations:
 }
 ```
 
-References:
+### References:
 1. [Data-Driven Acceleration of the Coupled-Cluster Singles and Doubles Iterative Solver](https://pubs.acs.org/doi/10.1021/acs.jpclett.9b01442)
 2. [Transferable MP2-Based Machine Learning for Accurate Coupled-Cluster Energies](https://pubs.acs.org/doi/10.1021/acs.jctc.0c00927)
+
